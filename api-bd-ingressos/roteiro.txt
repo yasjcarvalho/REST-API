@@ -1,0 +1,25 @@
+
+
+1. Baixar e descompactar do SIGAA
+2. Abrir o projeto no VSCode dentro da pasta
+3. No terminal do VSCode, executar
+  
+  npm install
+
+4. Alterar o arquivo database.js com as credenciais do seu banco de dados 
+
+  /**
+  * nomebanco, usuário, senha
+  */
+  const sequelize = new Sequelize('alunos-chatgpt', 'root', 'mysql123', {
+    host: 'localhost',
+    dialect: 'mysql',
+  });
+
+  criar o banco de dados(schema) com o mesmo nome do primeiro parâmetro
+
+5. Rodar o projeto:
+  npm start
+
+6. Testar no Postman
+7. Observar as alterações no MySQL Workbench
