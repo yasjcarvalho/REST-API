@@ -1,6 +1,9 @@
-1. Baixar e descompactar do SIGAA
+SEM NODEMODULES
+1. Baixar e descompactar.
 2. Abrir o projeto no VSCode dentro da pasta
 3. No terminal do VSCode, executar
+
+
 
 npm install
 
