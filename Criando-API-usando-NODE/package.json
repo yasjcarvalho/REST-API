@@ -1,0 +1,26 @@
+{
+  "name": "criando-api-usando-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasjcarvalho/Criando-API-usando-NODE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasjcarvalho/Criando-API-usando-NODE/issues"
+  },
+  "homepage": "https://github.com/yasjcarvalho/Criando-API-usando-NODE#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.28.0"
+  }
+}
