@@ -1,0 +1,185 @@
+*{
+    color: #FFFFFF
+    
+}
+header {
+    
+    width: 1085px;
+    height: 150px;
+    font-family: 'Poppins'; 
+
+}
+
+.menu{
+  
+  color: #FFFFFF;
+    list-style-type: none; 
+
+   
+}
+.principal{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-size: 40px;
+    background-color: #2c5545;
+    border-radius: 19px;
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    padding-bottom: 5px;
+
+
+}
+.logo{
+    position: absolute;
+    
+    left: 40px;
+    top: 20px;
+
+}
+
+.inicio{
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    font-size: 20px;
+
+}
+
+
+.sobre{
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    font-size: 20px;
+}
+
+.previsao{
+    position: absolute;
+    top: 50px;
+    left: 1400px;
+    font-size: 20px;
+
+}
+
+.noticias{
+    position: absolute;
+    top: 50px;
+    left: 1600px;
+    font-size: 20px;
+
+}
+
+body {
+    
+    width: 1815px;
+    height: 900px;
+    position: absolute;
+    background: #007155;
+    
+}
+
+.atual{
+    
+    background-color:#2c5545;
+    height: 600px;
+    width: 1815px; 
+    position: absolute;
+    
+    left: 40px;
+    border-radius: 19px;
+    font-family: 'Lobster Two';
+    
+    
+}
+
+.ponto{
+    position: absolute;
+    left: 710px;
+    top: 76px;
+    height: 50px;
+    width: 40px;
+}
+
+.weather{
+    position: absolute;
+    left: 860px;
+    top: 20px;
+    height: 50px;
+    width: 40px;
+    width: 70px; 
+    height: 70px;
+    
+}
+
+
+
+#cidade{
+    position: absolute;
+    font-size: 50px;
+    left: 755px;
+    top: 28px;
+    text-align: center;
+    font-family: 'Lobster Two';
+    
+}
+
+
+#data{
+    position: absolute;
+    bottom: 30px;
+    left: 910px;
+    font-family: 'Lobster Two';
+}
+#hora{
+    position: absolute;
+    bottom: 10px;
+    left: 927px;
+    font-family: 'Lobster Two';
+   
+}
+
+#temperatura{
+position: absolute;
+    font-size: 50px;
+    left: 870px;
+    top: 100px;
+}
+
+.grau{
+    position: absolute;
+    font-size: 40px;
+    left: 922px;
+    top: 150px;  
+}
+
+#previsoes {
+    display: flex;
+}
+
+
+.card2 {
+    position: relative;
+    width: 300px;
+    height: 220px;
+    left: 40px;
+    top: 368px;
+    bottom: 200px;
+    text-align: center;
+    background: #393939;
+    margin: 0px 5px 0px 5px;
+    border-radius: 19px;
+    font-family: 'Poppins'; 
+    font-size: 14px;
+}
+
+.svgtemp{
+    position: absolute;
+    top: 140px;
+    left: 810px;
+
+}
+
+
+

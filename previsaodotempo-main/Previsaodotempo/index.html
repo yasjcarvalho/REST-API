@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <header class="menu">
+      <span class="inicio">Início</span>
+      <span class="sobre">Sobre</span>
+      <img class="logo" src="img/icons8-tempo.svg" />
+      <span class="principal">WEATHER FORECAST</span>
+      <span class="noticias">Notícias</span>
+      <span class="previsao">Previsão</span>
+    </header>
+
+    <main>
+      <div class="atual">
+        <img class="ponto" src="img/vector.svg" />
+        <p id="cidade"></p>
+        <p id="temperatura"></p>
+        <span class="grau">º</span>
+        <img class="weather" src="img/icons8-weather.svg" />
+      </div>
+      <div class="datahora">
+        <p id="data"></p>
+
+        <p id="hora"></p>
+      </div>
+
+      <div id="previsoes"></div>
+    </main>
+  </body>
+</html>
